@@ -1,0 +1,61 @@
+PODS:
+  - Kingfisher (6.3.1)
+  - SnapKit (5.6.0)
+  - ZZComponents (1.0.0):
+    - ZZComponents/ActivityIndicatorView (= 1.0.0)
+    - ZZComponents/Button (= 1.0.0)
+    - ZZComponents/Color (= 1.0.0)
+    - ZZComponents/Core (= 1.0.0)
+    - ZZComponents/Font (= 1.0.0)
+    - ZZComponents/Gradient (= 1.0.0)
+    - ZZComponents/ImageView (= 1.0.0)
+    - ZZComponents/Loading (= 1.0.0)
+    - ZZComponents/Separator (= 1.0.0)
+    - ZZComponents/Toast (= 1.0.0)
+  - ZZComponents/ActivityIndicatorView (1.0.0):
+    - ZZComponents/Core
+  - ZZComponents/Button (1.0.0):
+    - ZZComponents/Core
+  - ZZComponents/Color (1.0.0):
+    - ZZComponents/Core
+  - ZZComponents/Core (1.0.0)
+  - ZZComponents/Font (1.0.0):
+    - ZZComponents/Core
+  - ZZComponents/Gradient (1.0.0):
+    - ZZComponents/Core
+  - ZZComponents/ImageView (1.0.0):
+    - Kingfisher
+    - ZZComponents/Core
+  - ZZComponents/Loading (1.0.0):
+    - ZZComponents/Color
+    - ZZComponents/Core
+    - ZZComponents/Font
+  - ZZComponents/Separator (1.0.0):
+    - ZZComponents/Color
+    - ZZComponents/Core
+  - ZZComponents/Toast (1.0.0):
+    - ZZComponents/Color
+    - ZZComponents/Core
+    - ZZComponents/Font
+
+DEPENDENCIES:
+  - SnapKit (~> 5.6.0)
+  - ZZComponents (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Kingfisher
+    - SnapKit
+
+EXTERNAL SOURCES:
+  ZZComponents:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Kingfisher: 016c8b653a35add51dd34a3aba36b580041acc74
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  ZZComponents: c5d5e7ff2fa17acb0237cdfd24a25a2d574a6ea7
+
+PODFILE CHECKSUM: 059f6181426a39e02b27b520302b0972df5eab50
+
+COCOAPODS: 1.11.3
