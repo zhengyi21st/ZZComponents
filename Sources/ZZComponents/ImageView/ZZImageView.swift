@@ -11,7 +11,7 @@ import Kingfisher
 
 open class ZZImageView: UIImageView {
 
-    private var defaultImageView: UIImageView = {
+    public var defaultImageView: UIImageView = {
         $0.isUserInteractionEnabled = false
         $0.contentMode = .scaleAspectFill
         return $0
